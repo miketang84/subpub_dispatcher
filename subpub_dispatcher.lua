@@ -24,6 +24,8 @@ sub_channel:sub("")
 sub_channel:bind(sub_in)
 
 print('Dispatcher server start.')
+print('sub_in_addr', sub_in_addr)
+print('put_out_addr', pub_out_addr)
 loop:loop()
 
 print('== Aborted! ==')
